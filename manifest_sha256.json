@@ -8,8 +8,8 @@
     "sha256": "cb16e9d919e524f08131403858980c26a8b46fee34732b027d460e62266f8ce5"
   },
   "README.md": {
-    "bytes": 5712,
-    "sha256": "4fa60ff32ffeeeab75b3bc7d2b1e944962dfe356f1a2633d2cc324c40a3b026b"
+    "bytes": 5747,
+    "sha256": "db309d8fe4c7d4564c593ee81f91439a075df38decb20828c4f5c98cba562756"
   },
   "app.py": {
     "bytes": 1833,
@@ -208,8 +208,8 @@
     "sha256": "16a408fa3b966c60c055c4f2a652b710de37658e020d7f0dbac33804b7c68204"
   },
   "mapa.html": {
-    "bytes": 24464019,
-    "sha256": "e07b46ee9f146c2b0be39ce225c631bdcf997beb3ae860207fcac168155be1c8"
+    "bytes": 24463396,
+    "sha256": "32cd0bbc7e84e03b8309159a20920e89f6e7a59030a8e03de7324cb70eaf7d55"
   },
   "pca.svg": {
     "bytes": 1257068,
@@ -228,8 +228,8 @@
     "sha256": "23fee8b11571233773011c59f59d3cdcc8a3e83a565fafbe6b76391c322ee340"
   },
   "scripts/build_deliverables.py": {
-    "bytes": 6681,
-    "sha256": "b5ebd124dfb9ec6af039fc4ca4e66cb542223256741fd0e1a63d1fa52d7b8c8d"
+    "bytes": 6773,
+    "sha256": "530b1acbe9cdb8eb11b16ae6ce2caa6dd00920c84feed10c84ad4218c8bb4b4c"
   },
   "scripts/check_package.py": {
     "bytes": 2240,

@@ -6,7 +6,7 @@ Datos oficiales de glaciares de roca argentinos y datos orbitales de Marte, con 
 
 ## Abrir ahora
 
-- `mapa.html`: mapa interactivo con ambos blancos y fichas; abrir en navegador; bibliotecas embebidas, mapa base requiere internet.
+- `mapa.html`: mapa interactivo con ambos blancos y fichas; abrir en navegador; bibliotecas, fondo vectorial y datos embebidos, sin conexión a servidores de teselas.
 - `data/processed/earth_entities.gpkg`: 7.719 entidades, para QGIS, GeoPandas o la demo.
 - `data/processed/earth_mars_ready.parquet` y `.csv`: tabla integrada, una fila por glaciar/blanco, con features e incertidumbre.
 - `data/processed/earth_features.csv`: atributos nacionales y banderas de estimación.

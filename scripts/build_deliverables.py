@@ -13,12 +13,13 @@ def main():
  e=gpd.read_file(OUT/'earth_entities.gpkg');s=pd.read_csv(OUT/'scores.csv');u=pd.read_csv(OUT/'earth_uncertainty.csv')
  uncertainty=u.pivot(index='glacier_id',columns='feature',values='median')
  e=e.merge(uncertainty.reset_index(),on='glacier_id')
- m=folium.Map(location=[-31.5,-69],zoom_start=6,tiles='OpenStreetMap',prefer_canvas=True)
+ m=folium.Map(location=[-31.5,-69],zoom_start=6,tiles=None,prefer_canvas=True)
  context=ROOT/'data/raw/south_america_context.geojson'
  if not context.exists():
   response=requests.get('https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson',timeout=60);response.raise_for_status()
   geo=response.json();geo['features']=[f for f in geo['features'] if f['properties'].get('CONTINENT')=='South America'];context.write_text(json.dumps(geo))
- folium.GeoJson(json.loads(context.read_text()),name='Contexto Natural Earth (offline)',style_function=lambda f:{'color':'#859296','weight':1,'fillColor':'#f3f0e8','fillOpacity':.7},tooltip=folium.GeoJsonTooltip(fields=['ADMIN'],aliases=['País'])).add_to(m)
+ folium.GeoJson(json.loads(context.read_text()),name='Contexto Natural Earth (offline)',style_function=lambda f:{'color':'#859296','weight':1,'fillColor':'#f3f0e8','fillOpacity':1},tooltip=folium.GeoJsonTooltip(fields=['ADMIN'],aliases=['País'])).add_to(m)
+ m.get_root().header.add_child(folium.Element('<style>.leaflet-container{background:#dcebf1}</style>'))
  c=linear.viridis.scale(0,60);c.caption='Similitud exploratoria 0-100 (colores 0-60); no probabilidad'
  for target,title in [('deuteronilus_lda','Deuteronilus: flujo LDA'),('arcadia_ice_sheet','Arcadia: hielo enterrado')]:
   g=e.merge(s[s.target_id==target],on='glacier_id').copy()
