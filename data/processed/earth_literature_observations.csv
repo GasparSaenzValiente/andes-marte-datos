@@ -1,0 +1,10 @@
+site,parameter,low,high,unit,spatial_support,evidence_status,source_id,note
+Dos Lenguas,length,1200,1200,m,whole_landform,approximate_literature_value,S09,Not independent repeated measurements
+Dos Lenguas,width,200,600,m,spatial_variation,approximate_literature_range,S09,Width changes along glacier; not confidence interval
+Dos Lenguas,surface_area_including_slopes,0.36,0.36,km2,whole_landform,approximate_literature_value,S09,Mapping definition differs from ING boundary
+Dos Lenguas,surface_area_excluding_slopes,0.25,0.25,km2,landform_excluding_margins,approximate_literature_value,S09,Do not interpret 0.25-0.36 as measurement confidence interval
+Dos Lenguas,ice_rich_permafrost_thickness_root,10,20,m,root_zone,rough_geophysical_approximation,S09,15 plus/minus 5 m; not full glacier average
+Dos Lenguas,ice_rich_permafrost_thickness_central,15,25,m,central_zone,rough_geophysical_approximation,S09,20 plus/minus 5 m; not full glacier average
+Dos Lenguas,ice_rich_permafrost_thickness_tongues,15,29,m,tongues,rough_geophysical_approximation,S09,22 plus/minus 7 m; not full glacier average
+Dos Lenguas,ice_mass,1700000000,2000000000,kg,whole_landform,model_based_literature_estimate,S09,Petrophysical model; not direct weighing
+Morenas Coloradas,permafrost_table_depth_Balcon_I,7.5,9,m,local_monitoring_site,literature_range,S13,Not universal debris thickness and not whole-body ice thickness

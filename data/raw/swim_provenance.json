@@ -1,0 +1,10 @@
+{
+  "url": "https://swim.psi.edu/LPSCProducts.php",
+  "params": {
+    "C_i-GeoTIFF": "True",
+    "DL-Sel": "True"
+  },
+  "release": "LPSC2019 legacy, not latest SWIM",
+  "meaning": "consistency [-1,1], NOT calibrated probability, NOT local ice depth",
+  "sha256": "9c81cf91d749c0906f7b2989191010daa8865c6206484dab6b74e423eb01ce9c"
+}

@@ -1,0 +1,13 @@
+target_id,parameter,unit,low,high,evidence_status,source_ids,note
+deuteronilus_lda,H_m,m,200,700,scenario_bracket,S04,Rango 200-700 de trabajo alrededor de 433; NO intervalo publicado
+deuteronilus_lda,length_m,m,2000,20000,assumed,,Medir sobre contorno orbital antes de validar
+deuteronilus_lda,slope_deg,degree,1,10,assumed,,No sustituir por pendiente regional MOLA
+deuteronilus_lda,ice_fraction,1,0.8,1.0,literature_envelope,S03;S05,No medicion de una huella individual
+deuteronilus_lda,debris_m,m,1,10,literature_envelope,S05,Rango de sintesis regional
+deuteronilus_lda,kappa_m2_s,m2/s,3e-07,1.5e-06,assumed,,Difusividad de escenario; no inferida de TES/THEMIS
+arcadia_ice_sheet,H_m,m,30,80,literature_regional_range,S07,"Espesor de hielo, NO profundidad al techo"
+arcadia_ice_sheet,length_m,m,,,not_applicable,,Planicie de hielo enterrado
+arcadia_ice_sheet,slope_deg,degree,,,not_used,,Sin vector de flujo
+arcadia_ice_sheet,ice_fraction,1,0.8,1.0,assumed,,Hielo en exceso no implica necesariamente >80% en esta coordenada
+arcadia_ice_sheet,debris_m,m,0.1,2,assumed,,NO inferido de SWIM Ci
+arcadia_ice_sheet,kappa_m2_s,m2/s,3e-07,1.5e-06,assumed,,Difusividad de escenario; no inferida de TES/THEMIS

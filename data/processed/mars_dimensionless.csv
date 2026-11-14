@@ -1,0 +1,9 @@
+target_id,feature,p05,median,p95,status
+deuteronilus_lda,sin_slope,0.027185181838969126,0.09206955390581317,0.16455433513571827,EXPLORATORIO: geometria y termica parcialmente asumidas
+deuteronilus_lda,H_over_L,0.014560471067730039,0.039296602946495715,0.16443855772131713,EXPLORATORIO: geometria y termica parcialmente asumidas
+deuteronilus_lda,debris_over_H,0.002924938209184809,0.012525115947865397,0.03013961583016283,EXPLORATORIO: geometria y termica parcialmente asumidas
+deuteronilus_lda,ice_fraction,0.813728270926069,0.90382900686703,0.994542924678346,EXPLORATORIO: geometria y termica parcialmente asumidas
+deuteronilus_lda,skin_over_H,0.004864121014801987,0.009514357460637203,0.018293292918077013,EXPLORATORIO: geometria y termica parcialmente asumidas
+arcadia_ice_sheet,debris_over_H,0.0036728590089466946,0.018580922428329448,0.04561937843481311,EXPLORATORIO: sin similitud de flujo ni probabilidad SWIM
+arcadia_ice_sheet,ice_fraction,0.8097820008047353,0.9041921379222126,0.9903516995040903,EXPLORATORIO: sin similitud de flujo ni probabilidad SWIM
+arcadia_ice_sheet,skin_over_H,0.03998133172879517,0.07230146470220286,0.13541814907424274,EXPLORATORIO: sin similitud de flujo ni probabilidad SWIM

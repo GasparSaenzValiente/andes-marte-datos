@@ -1,0 +1,39 @@
+{
+  "inventory_rows": 18046,
+  "selected_parts": 8062,
+  "entities": 7719,
+  "invalid_parts_repaired": 9,
+  "estimated_lengths": 2662,
+  "classes_parts": {
+    "GEA": 5593,
+    "GEI": 2469
+  },
+  "classes_entities": {
+    "GEA": 5262,
+    "GEI": 2139,
+    "GEA+GEI": 318
+  },
+  "validation_dos_lenguas": [
+    {
+      "target_id": "deuteronilus_lda",
+      "rank_by_median": 119,
+      "percentile_from_top": 1.5416504728591787,
+      "passes_top10": false
+    },
+    {
+      "target_id": "arcadia_ice_sheet",
+      "rank_by_median": 307,
+      "percentile_from_top": 3.9771991190568725,
+      "passes_top10": false
+    }
+  ],
+  "terrain_sources": {
+    "Copernicus GLO-30 national pixel-center zonal statistics": 7719
+  },
+  "seed": 20261114,
+  "draws": 512,
+  "full_operational_score_available": false,
+  "plastic_pi_available": false,
+  "ranking_status": "exploratory_not_validated",
+  "inventory_sha256": "a60868bce1c2dabb0308e5f785e584ef6cd06a74837e62abe6b4e559bfd75ec5"
+}

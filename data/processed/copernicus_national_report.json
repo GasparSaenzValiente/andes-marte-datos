@@ -1,0 +1,11 @@
+{
+  "entities": 7719,
+  "entities_with_pixels": 7719,
+  "tiles": 55,
+  "tiles_failed": 0,
+  "network_bytes": 1985185531,
+  "small_entities_under20_pixels": 1167,
+  "median_abs_slope_difference_deg": 3.2730405616290312,
+  "p95_abs_slope_difference_deg": 13.116254118024385,
+  "statistics": "pixel centers; derivatives before polygon masking; latitude-adjusted metric spacing; one-sided differences at tile edges; DSM not ice thickness"
+}

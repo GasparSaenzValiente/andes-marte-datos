@@ -1,0 +1,11 @@
+site,longitude,latitude,source,candidate_glacier_id,activity,distance_m,point_inside,confirmed_match,note
+Balcon I literature,-69.37194444444444,-32.96194444444445,S13,G693661O329631S,GEI,264.7025013128595,False,False,Candidate only; do not assign name or validation label automatically
+Balcon I literature,-69.37194444444444,-32.96194444444445,S13,G693744O329550S,GEI,293.77740477192935,False,False,Candidate only; do not assign name or validation label automatically
+Balcon I literature,-69.37194444444444,-32.96194444444445,S13,G693994O329631S,GEA,1720.5618904233847,False,False,Candidate only; do not assign name or validation label automatically
+Balcon I literature,-69.37194444444444,-32.96194444444445,S13,G693966O329653S,GEA,2072.4867737487484,False,False,Candidate only; do not assign name or validation label automatically
+Balcon I literature,-69.37194444444444,-32.96194444444445,S13,G693941O329769S,GEA,2563.754924458012,False,False,Candidate only; do not assign name or validation label automatically
+Balcon II GTNP,-69.380278,-32.934722,https://gtnpdatabase.org/boreholes/view/517,G693789O329246S,GEA,955.822178965788,False,False,Candidate only; do not assign name or validation label automatically
+Balcon II GTNP,-69.380278,-32.934722,https://gtnpdatabase.org/boreholes/view/517,G693840O329237S,GEA,1110.8906768780787,False,False,Candidate only; do not assign name or validation label automatically
+Balcon II GTNP,-69.380278,-32.934722,https://gtnpdatabase.org/boreholes/view/517,G693694O329232S,GEA,1236.1837020320766,False,False,Candidate only; do not assign name or validation label automatically
+Balcon II GTNP,-69.380278,-32.934722,https://gtnpdatabase.org/boreholes/view/517,G693933O329212S,GEA,1699.7956293575778,False,False,Candidate only; do not assign name or validation label automatically
+Balcon II GTNP,-69.380278,-32.934722,https://gtnpdatabase.org/boreholes/view/517,G693744O329550S,GEI,1914.9803051229233,False,False,Candidate only; do not assign name or validation label automatically

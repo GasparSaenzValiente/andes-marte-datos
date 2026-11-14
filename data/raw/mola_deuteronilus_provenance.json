@@ -1,0 +1,9 @@
+{
+  "url": "https://pds-geosciences.wustl.edu/mgs/mgs-m-mola-5-megdr-l3-v1/mgsl_300x/meg128/megt44n000hb.img",
+  "range_start": 1474560,
+  "range_end": 7372799,
+  "http_status": 206,
+  "lat": 42.5,
+  "lon_east": 25,
+  "description": "Recorte de contexto regional; no es contorno de glaciar ni espesor de hielo"
+}

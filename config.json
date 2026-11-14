@@ -1,0 +1,58 @@
+{
+  "seed": 20261114,
+  "draws": 512,
+  "earth": {
+    "gravity_m_s2": 9.80665,
+    "year_s": 31557600,
+    "H_coefficient_m": 50,
+    "H_exponent": 0.2,
+    "H_log_sigma": 0.4214,
+    "GEA": {"ice_fraction": [0.4, 0.6], "debris_m": [1, 5]},
+    "GEI": {"ice_fraction": [0.2, 0.6], "debris_m": [1, 8]},
+    "GEA+GEI": {"ice_fraction": [0.2, 0.6], "debris_m": [1, 8]},
+    "kappa_m2_s": [0.0000003, 0.0000015],
+    "slope_error_deg": 2,
+    "operational_slope_scale_deg": 20,
+    "operational_depth_scale_m": 5
+  },
+  "targets": [
+    {
+      "id": "deuteronilus_lda",
+      "name": "Deuteronilus: escenario regional LDA",
+      "mode": "flow",
+      "status": "EXPLORATORIO: geometria y termica parcialmente asumidas",
+      "H_m": [200, 700],
+      "length_m": [2000, 20000],
+      "slope_deg": [1, 10],
+      "ice_fraction": [0.8, 1.0],
+      "debris_m": [1, 10],
+      "kappa_m2_s": [0.0000003, 0.0000015],
+      "gravity_m_s2": 3.71,
+      "year_s": 59355072,
+      "dimensions": [0, 1, 2, 3, 4],
+      "weights": [0.2, 0.2, 0.25, 0.2, 0.15],
+      "normalization_scales": [0.4, 0.5, 0.5, 0.25, 0.5],
+      "sources": ["S03", "S04", "S05"],
+      "assumptions": "H 200-700 es rango de escenario alrededor de mediana regional 433 m, no IC publicado. L 2-20 km, pendiente 1-10 grados y kappa son priors de trabajo, NO mediciones del recorte MOLA. phi 0.8-1 y detrito 1-10 m son envolventes regionales de literatura, no valores de una huella individual."
+    },
+    {
+      "id": "arcadia_ice_sheet",
+      "name": "Arcadia: escenario de hielo enterrado",
+      "mode": "buried_ice",
+      "status": "EXPLORATORIO: sin similitud de flujo ni probabilidad SWIM",
+      "H_m": [30, 80],
+      "length_m": null,
+      "slope_deg": null,
+      "ice_fraction": [0.8, 1.0],
+      "debris_m": [0.1, 2],
+      "kappa_m2_s": [0.0000003, 0.0000015],
+      "gravity_m_s2": 3.71,
+      "year_s": 59355072,
+      "dimensions": [2, 3, 4],
+      "weights": [0.4, 0.35, 0.25],
+      "normalization_scales": [0.5, 0.25, 0.5],
+      "sources": ["S06", "S07", "S08"],
+      "assumptions": "H 30-80 m es espesor regional de deposito de hielo, NO profundidad a su techo. phi 0.8-1, sobrecarga 0.1-2 m y kappa son escenarios sin verificacion local. No se atribuye alto indice SWIM a una coordenada sin consultar el raster."
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+region,west,east,south,north,elevation_min_m,elevation_mean_m,elevation_max_m,slope_median_deg,slope_p95_deg,spacing_north_south_m,status
+deuteronilus,24.0,26.0,41.5,43.5,-3738.0,-3197.4983520507812,-1814.0,1.4942264786049146,14.802110103472376,463.05766716974557,regional_context_not_glacier_slope_or_ice_thickness
+arcadia,199.0,201.0,39.0,41.0,-3966.0,-3925.9097442626953,-3846.0,0.24604132610397383,0.6852773288782437,463.05766716974557,regional_context_not_glacier_slope_or_ice_thickness

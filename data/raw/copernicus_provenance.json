@@ -1,0 +1,26 @@
+[
+  {
+    "name": "dos_lenguas",
+    "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_S31_00_W070_00_DEM/Copernicus_DSM_COG_10_S31_00_W070_00_DEM.tif",
+    "bounds": [
+      -69.85,
+      -30.3,
+      -69.7,
+      -30.18
+    ],
+    "cache_sha256": "b39bc061bf62d3c8b9d1953f20795fd37277553b46a90a7effb1b1d709f0a346",
+    "crop": "copernicus_dos_lenguas.tif"
+  },
+  {
+    "name": "morenas_coloradas_region",
+    "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_S33_00_W070_00_DEM/Copernicus_DSM_COG_10_S33_00_W070_00_DEM.tif",
+    "bounds": [
+      -69.5,
+      -33.0,
+      -69.25,
+      -32.9
+    ],
+    "cache_sha256": "67fa8d1ee0a378aacb091f2afe5badc694da19f9df0e31201afe0cc4669f5643",
+    "crop": "copernicus_morenas_coloradas_region.tif"
+  }
+]

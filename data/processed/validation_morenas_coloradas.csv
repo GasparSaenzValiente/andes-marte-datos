@@ -1,0 +1,2 @@
+site,match_status,glacier_id,passes_top10,reason
+Morenas Coloradas,unresolved_no_name_in_selected_inventory,,,Require expert polygon/site crosswalk; do not assign nearest feature automatically

@@ -1,0 +1,9 @@
+{
+  "visible_glacier_layers": 15438,
+  "overlays": 3,
+  "errors": [],
+  "popups": 1,
+  "popup_text": [
+    "glacier_id\tG697821O302447S\nname\tGl. Dos Lenguas\nscore_median\t34.416\nscore_p05\t12.991\nscore_p95\t60.927\nrank_by_median\t119\nH_over_L\t0.034\ndebris_over_H\t0.072\nice_fraction\t0.508\nskin_over_H\t0.071\ntau_driving_pa\t172,659.847"
+  ]
+}
