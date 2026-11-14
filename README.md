@@ -1,4 +1,4 @@
-> **Descargar:** abrí [Releases](https://github.com/GasparSaenzValiente/andes-marte-datos/releases), elegí `andes_mars_datos.zip`, descomprimilo y abrí `andes_mars/mapa.html`.
+> **Descargar:** en este repositorio elegí **Code → Download ZIP**, descomprimilo y abrí `mapa.html` dentro de la carpeta descargada. También podés usar [la descarga directa del proyecto](https://github.com/GasparSaenzValiente/andes-marte-datos/archive/refs/heads/main.zip). Requiere iniciar sesión en GitHub porque el repositorio es privado.
 
 # Andes → Marte · paquete de datos reproducible
 
@@ -60,6 +60,6 @@ La clave de unión es `glacier_id`; el ranking usa `(glacier_id,target_id)`. Abr
 
 ## Publicación y alcance
 
-Repositorio privado de entrega: https://github.com/GasparSaenzValiente/andes-marte-datos. En Releases está el ZIP completo para descargar. El mapa HTML se abre después de descomprimirlo; no se ha desplegado una demo pública. `requirements.txt` fija las dependencias directas probadas; no es un lock completo de dependencias transitivas. El mapa es una visualización de análisis, no una aplicación desplegada.
+Repositorio privado de entrega: https://github.com/GasparSaenzValiente/andes-marte-datos. La opción Code → Download ZIP descarga el proyecto completo. El mapa HTML se abre después de descomprimirlo; no se ha desplegado una demo pública. `requirements.txt` fija las dependencias directas probadas; no es un lock completo de dependencias transitivas. El mapa es una visualización de análisis, no una aplicación desplegada.
 
 El código propio se distribuye con licencia MIT; los datos de terceros conservan sus condiciones originales. Ver `docs/sources.csv`: algunas licencias no están identificadas en las descargas, y acceso público no equivale por sí solo a una licencia abierta. Se conservan las fuentes para atribución y revisión antes de publicar redistribuciones.
